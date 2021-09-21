@@ -1,4 +1,8 @@
-const sign_in_btn = document.querySelector("#sign-in-btn");
+ // Your web app's Firebase configuration
+ // Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";const sign_in_btn = document.querySelector("#sign-in-btn");
+
 const sign_up_btn = document.querySelector("#sign-up-btn");
 const container = document.querySelector(".container");
 
