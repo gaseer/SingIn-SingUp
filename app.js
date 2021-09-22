@@ -40,7 +40,7 @@ sign_in_btn.addEventListener("click", () => {
   //signIN function
   function  signIn(){
     var email = document.getElementById("eemail");
-    var password  = document.getElementById("password");
+    var password  = document.getElementById("ppassword");
     const promise = auth.signInWithEmailAndPassword(email.value,password.value);
     promise.catch(e=>alert(e.message));
     
